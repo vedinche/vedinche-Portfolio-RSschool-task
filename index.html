@@ -75,7 +75,7 @@
 					Skills
 				</h2>
 				<ul class="list-reset skills__list flex">
-					<li class="skills__item flex">
+					<li class="skills__item skills__item-img-1 flex">
 						<h3 class="skills__title">
 							Digital photography
 						</h3>
@@ -83,7 +83,7 @@
 							High-quality photos in&nbsp;the studio and on&nbsp;the nature
 						</p>
 					</li>
-					<li class="skills__item flex">
+					<li class="skills__item skills__item-img-2 flex">
 						<h3 class="skills__title">
 							Video shooting
 						</h3>
@@ -91,7 +91,7 @@
 							Capture your moments so&nbsp;that they always stay with you
 						</p>
 					</li>
-					<li class="skills__item flex">
+					<li class="skills__item skills__item-img-3 flex">
 						<h3 class="skills__title">
 							Retouch
 						</h3>
@@ -99,7 +99,7 @@
 							I strive to make photography surpass reality
 						</p>
 					</li>
-					<li class="skills__item flex">
+					<li class="skills__item skills__item-img-4 flex">
 						<h3 class="skills__title">
 							Audio
 						</h3>
@@ -249,15 +249,15 @@
 			</div>
 		</section>
 		<section id="contacts" class="contacts">
-			<div class="container">
-				<div class="subtitle contacts__subtitle">
-					Contact me
-				</div>
-				<form class="form contacts__form">
+			<div class="container contacts__container flex">
+				<form class="form contacts__form flex">
+					<h2 class="subtitle form__subtitle">
+						Contact me
+					</h2>
 					<input class="form__input" type="email" name="mail" placeholder="E-mail">
 					<input class="form__input" type="tel" name="phone" placeholder="Phone">
 					<textarea class="form__textarea" name="message" placeholder="Message"></textarea>
-					<button class="btn btn-reset btn--fill">
+					<button class="btn btn-reset btn--fill form__btn">
 						Send message
 					</button>
 				</form>
@@ -266,18 +266,17 @@
 	</main>
 
 	<footer class="footer">
-		<div class="container">
-			<ul class="list-reset footer__copyright">
+		<div class="container footer__container flex">
+			<ul class="list-reset footer__copyright flex">
 				<li class="footer__info">&copy;</li>
 				<li class="footer__info">2022</li>
 				<li class="footer__info">
-					<a class="footer__info-link" href="https://github.com/" target="_blank"></a>
+					<a class="footer__info-link" href="https://github.com/" target="_blank">github</a>
 				</li>
 			</ul>
 			<a class="footer__author" href="#!">
 				Rolling Scopes School
 			</a>
-		</div>
 		<ul class="list-reset footer__list flex">
 			<li class="footer__item">
 				<a class="footer__social footer__social-instagram" href="#!"></a>
@@ -292,6 +291,7 @@
 				<a class="footer__social footer__social-pinterest" href="#!"></a>
 			</li>
 		</ul>
+		</div>
 	</footer>
 
 	<script src="js/index.js"></script>
